@@ -1,0 +1,22 @@
+.buttonLabel {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.stateactiveOnDarkBgno {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-9xs);
+  background: linear-gradient(-39.73deg, #3b7695, #60b4df);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--px-semibold-size);
+  color: var(--neutrals-white-100);
+  font-family: var(--px-regular-sentence);
+}

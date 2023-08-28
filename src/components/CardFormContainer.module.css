@@ -1,0 +1,327 @@
+.description,
+.title {
+  position: relative;
+  display: inline-block;
+}
+.title {
+  line-height: 27px;
+  font-weight: 600;
+  width: 181px;
+  flex-shrink: 0;
+}
+.description {
+  line-height: 28px;
+  width: 771px;
+}
+.descriptionWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.preferredCreditLimit {
+  position: relative;
+  line-height: 21px;
+}
+.icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  display: none;
+}
+.titleTooltip {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.transferMoney {
+  position: relative;
+  display: none;
+  width: 179px;
+}
+.minusIcon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+.inputText {
+  flex: 1;
+  position: relative;
+  line-height: 34px;
+}
+.minusParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  text-align: center;
+  font-size: var(--px-bold2-size);
+  color: var(--neutrals-grey-900-100);
+}
+.transferMoneyParent {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.content,
+.labelAndInput,
+.transferMoneyParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.labelAndInput {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.content {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--neutrals-white-100);
+  border: 1px solid var(--neutrals-grey-200-100);
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-base);
+  align-items: center;
+}
+.helperText1 {
+  flex: 1;
+  position: relative;
+  line-height: 21px;
+  display: none;
+}
+.helperText,
+.textFields,
+.titleTooltipParent {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.helperText {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+  padding: 0 var(--padding-base);
+  font-size: var(--px-regular-sentence1-size);
+  color: var(--neutrals-grey-700-100);
+}
+.textFields,
+.titleTooltipParent {
+  display: flex;
+  flex-direction: column;
+}
+.textFields {
+  width: 279px;
+  gap: var(--gap-9xs);
+  font-size: var(--px-bold-size);
+  color: var(--color-darkslategray-100);
+}
+.titleTooltipParent {
+  gap: var(--gap-5xs);
+}
+.inputText1 {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.inputTextWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  font-size: var(--px-semibold-size);
+  color: var(--neutrals-grey-900-100);
+}
+.content1,
+.inputTextWrapper,
+.textFields1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.content1 {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--neutrals-white-100);
+  border: 1px solid var(--neutrals-grey-200-100);
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-base);
+  align-items: center;
+}
+.textFields1 {
+  width: 279px;
+  height: 50px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-9xs);
+}
+.helperText5 {
+  flex: 1;
+  position: relative;
+  line-height: 21px;
+}
+.helperText4,
+.textFieldsParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.helperText4 {
+  width: 279px;
+  flex-direction: row;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+  font-size: var(--px-regular-sentence1-size);
+  color: var(--neutrals-grey-700-100);
+}
+.textFieldsParent {
+  flex-direction: column;
+  gap: var(--gap-9xs);
+  font-size: var(--px-bold-size);
+  color: var(--color-darkslategray-100);
+}
+.frameGroup,
+.titleWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.frameGroup {
+  width: 771px;
+  align-items: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--px-regular-sentence1-size);
+  color: var(--neutrals-grey-600-100);
+}
+.titleWrapper {
+  align-items: baseline;
+}
+.loremIpsum {
+  margin: 0;
+}
+.optionTxt {
+  line-break: anywhere;
+  width: 100%;
+}
+.option {
+  position: relative;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  width: 709px;
+  flex-shrink: 0;
+}
+.radio,
+.toastIconsParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.toastIconsParent {
+  gap: var(--gap-9xs);
+  font-size: var(--px-regular-sentence-size);
+  color: var(--neutrals-grey-700-100);
+}
+.b,
+.of25000 {
+  position: relative;
+  line-height: 27px;
+}
+.of25000 {
+  font-size: var(--px-regular-sentence1-size);
+  line-height: 21px;
+  color: var(--neutrals-grey-500-100);
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.frameDiv,
+.frameParent2,
+.textFieldsGroup {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent2 {
+  width: 131px;
+  display: none;
+  gap: var(--gap-9xs);
+}
+.frameDiv,
+.textFieldsGroup {
+  align-self: stretch;
+  display: flex;
+  gap: var(--gap-base);
+}
+.frameDiv {
+  flex-direction: column;
+}
+.infoIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.frameContainer,
+.radioParent {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.radioParent {
+  display: none;
+  flex-direction: row;
+  gap: var(--gap-9xs);
+}
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+}
+.cardBreakdown {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--neutrals-grey-50-50);
+  border: 1px solid var(--neutrals-grey-100-100);
+  padding: var(--padding-5xl);
+  font-size: var(--px-bold-size);
+  color: var(--neutrals-grey-900-100);
+}
+.cardBreakdown,
+.dividerscontentDividersthinParent,
+.frameParent,
+.loansSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  gap: var(--gap-5xl);
+}
+.dividerscontentDividersthinParent,
+.loansSection {
+  font-size: var(--px-bold1-size);
+  color: var(--neutrals-grey-800-100);
+}
+.loansSection {
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  background-color: var(--neutrals-white-100);
+  box-shadow: var(--shadow-3-y);
+  flex-direction: row;
+  padding: var(--padding-45xl) var(--padding-61xl);
+  justify-content: center;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--px-bold-size);
+  color: var(--neutrals-grey-900-100);
+  font-family: var(--px-regular-sentence);
+}

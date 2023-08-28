@@ -1,0 +1,37 @@
+.circle {
+  position: absolute;
+  top: calc(50% - 4px);
+  left: calc(50% - 4px);
+  border-radius: var(--br-81xl);
+  background-color: var(--neutrals-white-100);
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
+  width: 8px;
+  height: 8px;
+}
+.option,
+.radio {
+  position: relative;
+}
+.radio {
+  border-radius: var(--br-81xl);
+  background: linear-gradient(-79.44deg, #3d525d, #49565f 50.52%, #5a6a75);
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.option {
+  line-height: 24px;
+}
+.stateselectedActiveSizere {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--px-semibold-size);
+  color: var(--neutrals-grey-900-100);
+  font-family: var(--px-regular-sentence);
+}

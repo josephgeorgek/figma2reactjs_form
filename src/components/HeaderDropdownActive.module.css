@@ -1,0 +1,31 @@
+.label {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.labelWrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-5xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.chevDownmedIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.headerDropdownactive {
+  position: relative;
+  border-radius: var(--br-81xl);
+  border: 1px solid var(--neutrals-white-50);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: right;
+  font-size: var(--px-semibold-size);
+  color: var(--neutrals-white-100);
+  font-family: var(--px-regular-sentence);
+}

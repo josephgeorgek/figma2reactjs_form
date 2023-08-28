@@ -1,0 +1,27 @@
+.inputText,
+.label {
+  align-self: stretch;
+  position: relative;
+  line-height: 21px;
+}
+.inputText {
+  font-size: var(--px-semibold-size);
+  line-height: 24px;
+  font-weight: 600;
+  color: var(--neutrals-grey-900-100);
+}
+.emphasismidHelperTextno {
+  position: relative;
+  width: 311px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 var(--padding-5xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  text-align: left;
+  font-size: var(--px-regular-sentence1-size);
+  color: var(--neutrals-grey-600-100);
+  font-family: var(--px-regular-sentence);
+}

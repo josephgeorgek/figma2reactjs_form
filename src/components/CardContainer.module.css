@@ -1,0 +1,32 @@
+.infoIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  display: none;
+}
+.cardBreakdown,
+.frameParent,
+.radioParent {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.radioParent {
+  display: none;
+  flex-direction: row;
+  gap: var(--gap-9xs);
+}
+.cardBreakdown,
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+}
+.frameParent {
+  gap: var(--gap-5xl);
+}
+.cardBreakdown {
+  border-radius: var(--br-5xs);
+  background-color: var(--neutrals-grey-50-50);
+  border: 1px solid var(--neutrals-grey-100-100);
+  padding: var(--padding-5xl);
+}

@@ -1,0 +1,25 @@
+.desc,
+.title1 {
+  position: relative;
+  line-height: 28px;
+}
+.desc {
+  font-size: var(--px-bold-size);
+  line-height: 27px;
+  font-weight: 600;
+  color: var(--neutrals-grey-700-100);
+}
+.descriptionyes,
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.descriptionyes {
+  position: relative;
+  text-align: left;
+  font-size: var(--px-bold1-size);
+  color: var(--neutrals-grey-900-100);
+  font-family: var(--px-regular-sentence);
+}

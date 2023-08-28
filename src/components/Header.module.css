@@ -1,0 +1,124 @@
+.label {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: none;
+}
+.labelContainer {
+  display: none;
+  flex-direction: row;
+  padding: 0 var(--padding-5xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.chevLeftmedIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.backBtn {
+  border-radius: var(--br-81xl);
+  background-color: var(--neutrals-white-50);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div {
+  position: absolute;
+  top: calc(50% - 10px);
+  left: calc(50% - 14px);
+  line-height: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+}
+.floating {
+  position: relative;
+  border-radius: var(--br-81xl);
+  background: linear-gradient(-79.44deg, #3d525d, #49565f 50.52%, #5a6a75);
+  width: 28px;
+  height: 20px;
+}
+.headerTextParent,
+.left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.headerTextParent {
+  gap: var(--gap-5xs);
+  text-align: center;
+  font-size: var(--px-regular-sentence-size);
+  color: var(--neutrals-white-100);
+}
+.left {
+  gap: var(--gap-base);
+}
+.label2 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.labelContainer2 {
+  padding: 0 var(--padding-5xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.content,
+.labelContainer2,
+.right,
+.secondary {
+  display: flex;
+  flex-direction: row;
+}
+.secondary {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.content,
+.right {
+  align-items: center;
+}
+.right {
+  justify-content: flex-end;
+  gap: var(--gap-base);
+}
+.content {
+  width: 1440px;
+  padding: var(--padding-13xl) var(--padding-137xl);
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.thinDivider {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--neutrals-white-10);
+  height: 1px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.divider,
+.header {
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divider {
+  height: 1px;
+}
+.header {
+  position: relative;
+  text-align: right;
+  font-size: var(--px-semibold-size);
+  color: var(--neutrals-grey-900-100);
+  font-family: var(--px-regular-sentence);
+}

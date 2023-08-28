@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --px-regular-sentence: "Open Sans";
+
+  /* font sizes */
+  --px-regular-sentence-size: 12px;
+  --px-semibold-size: 16px;
+  --px-regular-sentence1-size: 14px;
+  --px-bold-size: 18px;
+  --px-bold1-size: 20px;
+  --px-bold2-size: 24px;
+
+  /* Colors */
+  --neutrals-grey-800-100: #4a5c65;
+  --neutrals-grey-900-100: #39474e;
+  --color-darkslategray-100: #2f3c54;
+  --neutrals-dark: #333;
+  --neutrals-grey-900-70: rgba(57, 71, 78, 0.7);
+  --neutrals-white-100: #fff;
+  --neutrals-grey-600-100: #6b8592;
+  --neutrals-grey-700-100: #5a707b;
+  --neutrals-grey-100-100: #dce2e5;
+  --neutrals-grey-200-100: #d7dadc;
+  --color-whitesmoke-100: #f5f5f5;
+  --neutrals-grey-50-50: rgba(242, 245, 246, 0.5);
+  --neutrals-grey-500-100: #7d909b;
+  --functional-blue-900: #0084ff;
+  --neutrals-white-10: rgba(255, 255, 255, 0.1);
+  --neutrals-white-50: rgba(255, 255, 255, 0.5);
+  --color-aliceblue: #f0f5f9;
+
+  /* Gaps */
+  --gap-5xs: 8px;
+  --gap-9xs: 4px;
+  --gap-5xl: 24px;
+  --gap-base: 16px;
+  --gap-12xs: 1px;
+  --gap-11xs: 2px;
+
+  /* Paddings */
+  --padding-5xs: 8px;
+  --padding-xs: 12px;
+  --padding-base: 16px;
+  --padding-5xl: 24px;
+  --padding-8xs: 5px;
+  --padding-13xl: 32px;
+  --padding-137xl: 156px;
+  --padding-45xl: 64px;
+  --padding-61xl: 80px;
+
+  /* border radiuses */
+  --br-9xs: 4px;
+  --br-81xl: 100px;
+  --br-5xs: 8px;
+  --br-xs: 12px;
+
+  /* Effects */
+  --shadow-3-y: 0px 10px 17px rgba(0, 0, 0, 0.05);
+}

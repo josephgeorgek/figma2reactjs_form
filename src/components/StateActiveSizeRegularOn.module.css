@@ -1,0 +1,28 @@
+.option,
+.radio {
+  position: relative;
+}
+.radio {
+  border-radius: var(--br-81xl);
+  border: 1px solid var(--neutrals-grey-100-100);
+  box-sizing: border-box;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.option {
+  line-height: 24px;
+}
+.stateactiveSizeregularOn {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--px-semibold-size);
+  color: var(--neutrals-grey-900-100);
+  font-family: var(--px-regular-sentence);
+}
